@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.neuron-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://i.makeagif.com/media/11-16-2015/Ien7vO.gif') no-repeat center center/cover;  
+  z-index: -1;
+  animation: float 10s infinite alternate ease-in-out;
+}
+
+.parkinsons-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://th.bing.com/th/id/R.972003a21d20c5c9f3f1ea1d8b8c1522?rik=20jrWxb8QXfRmg&riu=http%3a%2f%2fpic.rmb.bdstatic.com%2f972003a21d20c5c9f3f1ea1d8b8c15226335.gif&ehk=4fO8NoY52y4jBoMCyjO1K%2bHruklQ5HJWeq5M6gWOB8k%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;  
+  z-index: -1;
+  animation: gradientAnimation 10s infinite alternate ease-in-out;
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.05);  /* Reduce opacity */
+  min-height: 100vh;
+}
