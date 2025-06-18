@@ -1,3 +1,18 @@
+# 🚀 Parkinson’s Disease Detection using Machine Learning
+
+A web-based diagnostic tool to detect Parkinson’s Disease stages using CNN and DaTScan image analysis. Published in IEEE ICoEIT 2025.
+
+## 🔍 Features
+- 🧠 CNN + SVM model for stage-wise prediction (~92% accuracy)
+- 📊 Real-time prediction & visualization
+- 👨‍⚕️ Expert consultation and patient history tracking
+- 🔒 Secure user login and image upload (Flask backend, React frontend)
+
+## 🛠️ Tech Stack
+- React.js, Flask, Python, CNN, SVM
+- HTML, CSS, JavaScript
+- DaTScan medical image datasets
+  
 # Parkinson-s-Disease-Detection-using-Machine-Learning-on-DaTScan-Image
 # 1. Registration Page
 ![image](https://github.com/user-attachments/assets/ac9e9ad9-36e9-44a5-94cf-9f57f0a91591)
